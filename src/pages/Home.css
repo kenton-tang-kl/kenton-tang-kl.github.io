@@ -1,0 +1,62 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    color: white;
+    text-align: center;
+  }
+  
+  .home-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .home h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .home-description {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+  }
+  
+  .home-icons {
+    margin-bottom: 2rem;
+  }
+  
+  .home-icons a {
+    color: white;
+    margin: 0 1rem;
+    font-size: 2.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .home-icons a:hover {
+    color: #1e90ff;
+  }
+  
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .btn {
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 2rem;
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: #222;
+  }
+  
